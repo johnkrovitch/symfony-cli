@@ -169,6 +169,13 @@ var availableServices = []*service{
 		},
 	},
 	{
+		Type: "frankenphp",
+		Versions: serviceVersions{
+			Deprecated: []string{"1.8.2", "1.8.3"},
+			Supported:  []string{"1.8.4", "1.8.5"},
+		},
+	},
+	{
 		Type: "gotenberg",
 		Versions: serviceVersions{
 			Deprecated: []string{},
